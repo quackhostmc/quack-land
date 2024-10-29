@@ -17,7 +17,7 @@ import Header from "../components/Header.astro";
 		<title>{title}</title>
 		<link rel="sitemap" href="/sitemap-index.xml" />
 	</head>
-	<body>
+	<body class="bg-zinc-900">
 	<Header />
 		<slot />
 	</body>
@@ -26,7 +26,6 @@ import Header from "../components/Header.astro";
 <style is:global>
 	html {
 		font-family: system-ui, sans-serif;
-		background: #1e1f22;
 	}
 	code {
 		font-family:
